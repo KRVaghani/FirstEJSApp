@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const path = require('path');
 
 app.set('views',path.join(__dirname,'views'));//tell the views directory name 
 app.set('view engine','ejs')//this line though we are not every time define .ejs in file
